@@ -10,10 +10,16 @@ public class UsageLog4j {
 
 
     public static void main(String[] args) {
-        LOG.trace("trace message");
-        LOG.debug("debug message");
-        LOG.info("info message");
-        LOG.warn("warn message");
-        LOG.error("error message");
+        boolean bool = false;
+        int age = 33;
+        float fl = 33.0f;
+        double db = 33.6d;
+        char ch = 'd';
+        byte bt = 120;
+        long hj = 10000000000000000L;
+        short sh = 1000;
+
+        LOG.debug("Client info : {}, {} , {}, {} , {} , {}, {}, {}"
+                , bool, age, fl, db, ch, bt, hj, sh);
     }
 }
