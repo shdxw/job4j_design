@@ -17,6 +17,7 @@
   </properties>
 
   <dependencies>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -47,7 +48,7 @@
             <id>validate</id>
             <phase>validate</phase>
             <configuration>
-              <configLocation>checkstyle.xml</configLocation>
+              <configLocation>./checkstyle.xml</configLocation>
               <encoding>UTF-8</encoding>
               <consoleOutput>true</consoleOutput>
               <failsOnError>true</failsOnError>
